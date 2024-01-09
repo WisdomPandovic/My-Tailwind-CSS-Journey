@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.bg-image-section {
+    background-image: url(./images/booking-photo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  .text-section {
+    color: black;
+  }
+  
+  .text-section h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .text-section p {
+    font-size: 1.5rem;
+  }
+  
+  .container-70 {
+    width: 70%;
+}
+
+@media (max-width: 400px) {
+    .container-70 {
+        width: 90%;
+    }
+}
