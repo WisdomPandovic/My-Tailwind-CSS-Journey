@@ -28,6 +28,16 @@
     width: 70%;
 }
 
+.custom-gap-30 > * + * {
+  margin-left: 50px; /* Adjust the margin as needed */
+}
+
+@media (min-width: 768px) {
+  .md\:custom-gap-30 > * + * {
+      margin-left: 30px; /* Adjust the margin as needed */
+  }
+}
+
 @media (max-width: 400px) {
     .container-70 {
         width: 90%;
